@@ -1,7 +1,7 @@
 /* Default CSS */
 .infinite-scroll-list {
   box-sizing: border-box;
-  min-width: 350px;
+  min-width: 300px;
   overflow-x: hidden;
   overflow-y: auto;
   border: 1px solid white;
