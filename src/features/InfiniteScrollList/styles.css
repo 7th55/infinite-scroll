@@ -1,0 +1,25 @@
+/* Default CSS */
+.infinite-scroll-list {
+  box-sizing: border-box;
+  min-width: 350px;
+  overflow-y: auto;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+/* Chrome Scrollbar */
+.infinite-scroll-list::-webkit-scrollbar {
+  width: 20px;
+  border-radius: 0 10px 10px 0;
+}
+.infinite-scroll-list::-webkit-scrollbar-track {
+  border-radius: 0 10px 10px 0;
+  overflow: hidden;
+  z-index: 100;
+  background-color: rgba(169, 169, 169, 0.573);
+}
+.infinite-scroll-list::-webkit-scrollbar-thumb {
+  width: 1em;
+  background-color: darkgrey;
+  border-radius: 10px;
+}

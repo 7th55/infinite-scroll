@@ -1,0 +1,51 @@
+.short-card {
+  display: flex;
+  min-width: 300px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2px;
+  padding: 2px 5px;
+  margin-bottom: 5px;
+  background-color: rgba(250, 235, 215, 0.104);
+  border-radius: 5px;
+}
+
+.short-card__header {
+  display: inline-block;
+  width: 470px;
+  overflow: hidden;
+  text-align: center;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.long-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.long-card__header {
+  background-color: rgba(250, 235, 215, 0.104);
+}
+
+.long-card__body {
+  padding: 5px;
+  text-align: initial;
+  background-color: rgba(250, 235, 215, 0.104);
+}
+
+.long-card__button {
+  display: flex;
+  width: 100%;
+}
+
+.long-card__header,
+.long-card__body {
+  margin: 0;
+}
